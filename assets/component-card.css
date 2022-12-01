@@ -333,3 +333,12 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+
+.card--standard-no-images .card__content {
+  padding: 0;
+}
+
+.card--standard-no-images .card__information {
+  padding: 0.1em;
+}

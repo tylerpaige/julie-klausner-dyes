@@ -602,6 +602,10 @@
           {
             "value": "card",
             "label": "t:settings_schema.collection_cards.settings.style.options__2.label"
+          },
+          {
+            "value": "standard-no-images",
+            "label": "t:settings_schema.collection_cards.settings.style.options__3.label"
           }
         ],
         "default": "standard",
