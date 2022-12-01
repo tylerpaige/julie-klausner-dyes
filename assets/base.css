@@ -447,6 +447,13 @@ h5 {
   line-height: var(--type-body-line-height);
 }
 
+.type-md-heading {
+  font-family: var(--type-heading-font-family);
+  font-size: var(--type-font-size-0);
+  text-transform: uppercase;
+  line-height: var(--type-heading-line-height);
+}
+
 .type-lg,
 .type-lg-body {
   font-family: var(--type-body-font-family);

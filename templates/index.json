@@ -38,7 +38,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.<\/p>"
+            "text": "<p>Hi, I'm Julie Klausner. I'm a writer and performer and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p>"
           }
         }
       },
@@ -59,7 +59,7 @@
       "type": "main-list-collections",
       "settings": {
         "title": "Shop by category",
-        "sort": "date",
+        "sort": "alphabetical",
         "image_ratio": "square",
         "columns_desktop": 4,
         "columns_mobile": "2",
