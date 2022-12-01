@@ -3,6 +3,7 @@
 This theme is built off Shopify's Color Block theme. It is customized in a number of ways:
 
 **Restyles typography**
+
 This theme is customized to use a type scale, where a base font size is mulitplied by an exponential number. The base font size can then be scaled up and down, and the hierarchies are preserved. The client can change the scale or the base font size via the "customize" menu.
 
 As such, many elements have had their class names changed to use our type presets.
@@ -10,17 +11,21 @@ As such, many elements have had their class names changed to use our type preset
 Additionally, this theme uses two custom fonts that are not available through Shopify: DIN Condensed (served via Adobe Fonts) and YoungSerif (via a file uploaded to Shopify, served through Shopify's CDN). Since these fonts are custom, they override any values the client may select in the theme's customization. 
 
 **Replaces color schemes**
+
 The original theme did not allow enough flexibility with its color schemes. This derivative theme allows the user to craft 4 color schemes, each of which contains a foreground and background. This will allow the client a greater degree of choice when styling the site.
 
 These color schemes are designed to be selected from a palete designed for the client.
 
 **Replaces icons**
+
 This theme comes with customized icons for the menu, search, and cart. They are simple and are intended to match the logo's styling.
 
 **Increases max-width on logo**
+
 Since the logo is typographic, we increase the maximum allowed size to get it to match nicely with our type scale.
 
 **Accommodations for inventory is always one-of-a-kind**
+
 All products sold on this site will be one of a kind. Therefore, we don't expose any "quantity controls" for the user to order multiple items: neither on the product page nor in the cart. As a result the cart is somewhat reskinned to avoid redundant information.
 
 NOTE: this does present some usability problems. Hypothetically, a user could "add to cart" twice. After which they would be unable to decrease the quantity. I don't think we should fix this until it becomes a problem. Users can always remove the entire line item from their cart to fix the problem themselves.
