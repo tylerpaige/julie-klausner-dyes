@@ -6,7 +6,7 @@
         "91bd7dda-023a-41b5-a9b4-c4113d8f3e8e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dye-close-up-example_e113e18a-80d9-4272-9b4d-9d1a3238b1a4.jpg",
+            "image": "shopify:\/\/shop_images\/HomePageImage.jpg",
             "image_padding": false
           }
         }
@@ -31,14 +31,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<p>Hi, I'm Julie Klausner.<\/p>",
             "heading_size": "jumbo"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Hi, I'm Julie Klausner. I'm a writer and performer and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p>"
+            "text": "<p>I'm a writer and performer, and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p>"
           }
         }
       },
@@ -48,10 +48,10 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "secondary",
         "full_width": true,
-        "padding_top": 28,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },
