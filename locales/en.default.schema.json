@@ -2449,6 +2449,14 @@
             }
           }
         },
+        "big-text": {
+          "name": "Big Text",
+          "settings": {
+            "text": {
+              "label": "Description"
+            }
+          }
+        },
         "buttons": {
           "name": "Buttons",
           "settings": {

@@ -28,23 +28,23 @@
     "rich-text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Hi, I'm Julie Klausner.<\/p>",
-            "heading_size": "jumbo"
-          }
-        },
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>I'm a writer and performer, and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p>"
+            "text": "<p>Hi, I'm Julie Klausner. I'm a writer and performer, and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p>"
+          }
+        },
+        "1dfd1dee-a0d1-433c-837b-076ec98605ec": {
+          "type": "bigtext",
+          "settings": {
+            "text": "<p>Hi, I'm Julie Klausner.<br\/>I'm a writer and performer, and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text",
+        "1dfd1dee-a0d1-433c-837b-076ec98605ec"
       ],
       "settings": {
         "desktop_content_position": "center",
