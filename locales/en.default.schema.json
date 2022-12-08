@@ -654,10 +654,19 @@
             "label": "Body"
           },
           "options__2": {
-            "label": "Subtitle"
+            "label": "Large (body)"
           },
           "options__3": {
-            "label": "Uppercase"
+            "label": "Large (heading)"
+          },
+          "options__4": {
+            "label": "Extra-large"
+          },
+          "options__5": {
+            "label": "Extra-extra-large"
+          },
+          "options__6": {
+            "label": "Jumbo"
           }
         },
         "collection": {

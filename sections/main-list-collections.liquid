@@ -22,15 +22,12 @@
         assign paginate_by = 28
       endif
     -%}
-
     {%- paginate collections by paginate_by -%}
       <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list" data-client-side-sort>
         {%- for collection in collections -%}
-          {%- if collection.metafields.custom.show_on_homepage -%}
-            <li class="collection-list__item grid__item" data-sort-priority="{{ collection.metafields.custom.priority }}" data-sort-name="{{ collection.title }}">
-              {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 3 %}
-            </li>
-          {%- endif -%}
+          <li class="collection-list__item grid__item" data-sort-priority="{{ collection.metafields.custom.priority }}" data-sort-name="{{ collection.title }}">
+            {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 3 %}
+          </li>
         {%- endfor -%}
       </ul>
       {% render 'pagination', paginate: paginate %}

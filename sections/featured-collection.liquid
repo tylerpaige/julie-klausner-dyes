@@ -47,12 +47,12 @@
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
-      <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+      <div class="collection__title center title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
         {%- if section.settings.title != blank -%}
-          <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+          <h2 class="title type-{{ section.settings.heading_size }}">{{ section.settings.title }}</h2>
         {%- endif -%}
         {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
-          <div class="collection__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
+          <div class="collection__description type-{{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
         {%- endif -%}
       </div>
 
@@ -112,9 +112,8 @@
   "class": "section",
   "settings": [
     {
-      "type": "text",
+      "type": "richtext",
       "id": "title",
-      "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
     },
     {
@@ -122,7 +121,7 @@
       "id": "heading_size",
       "options": [
         {
-          "value": "lg",
+          "value": "lg-heading",
           "label": "t:sections.all.heading_size.options__1.label"
         },
         {
@@ -132,6 +131,10 @@
         {
           "value": "xxl",
           "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "jumbo",
+          "label": "t:sections.all.heading_size.options__4.label"
         }
       ],
       "default": "xl",
@@ -154,19 +157,31 @@
       "label": "t:sections.featured-collection.settings.description_style.label",
       "options": [
         {
-          "value": "body",
+          "value": "md",
           "label": "t:sections.featured-collection.settings.description_style.options__1.label"
         },
         {
-          "value": "subtitle",
+          "value": "lg-body",
           "label": "t:sections.featured-collection.settings.description_style.options__2.label"
         },
         {
-          "value": "uppercase",
+          "value": "lg-heading",
           "label": "t:sections.featured-collection.settings.description_style.options__3.label"
+        },
+        {
+          "value": "xl",
+          "label": "t:sections.featured-collection.settings.description_style.options__4.label"
+        },
+        {
+          "value": "xxl",
+          "label": "t:sections.featured-collection.settings.description_style.options__5.label"
+        },
+        {
+          "value": "jumbo",
+          "label": "t:sections.featured-collection.settings.description_style.options__6.label"
         }
       ],
-      "default": "body"
+      "default": "md"
     },
     {
       "type": "collection",
