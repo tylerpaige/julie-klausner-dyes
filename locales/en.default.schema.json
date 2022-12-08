@@ -164,8 +164,11 @@
         "type_mobile_base_font_size": {
           "label": "Base font size (mobile)"
         },
-        "type_font_scale": {
-          "label": "Font scale"
+        "type_desktop_font_scale": {
+          "label": "Font scale (desktop)"
+        },
+        "type_mobile_font_scale": {
+          "label": "Font scale (mobile)"
         },
         "header__1": {
           "content": "Headings"

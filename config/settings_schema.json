@@ -97,13 +97,23 @@
       },
       {
         "type": "range",
-        "id": "type_font_scale",
+        "id": "type_desktop_font_scale",
         "min": 100,
         "max": 200,
         "step": 1,
         "unit": "x",
-        "label": "t:settings_schema.typography.settings.type_font_scale.label",
+        "label": "t:settings_schema.typography.settings.type_desktop_font_scale.label",
         "default": 125
+      },
+      {
+        "type": "range",
+        "id": "type_mobile_font_scale",
+        "min": 100,
+        "max": 200,
+        "step": 1,
+        "unit": "x",
+        "label": "t:settings_schema.typography.settings.type_mobile_scale.label",
+        "default": 115
       },
       {
         "type": "header",

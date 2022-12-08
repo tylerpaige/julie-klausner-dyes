@@ -336,6 +336,7 @@ body {
 
 :root {
   --type-base-font-size: var(--type-mobile-base-font-size);
+  --type-font-scale: var(--type-mobile-font-scale);
   --type-font-size--2: calc(var(--type-base-font-size) * (1 / var(--type-font-scale) / var(--type-font-scale)));
   --type-font-size--1: calc(var(--type-base-font-size) * (1 / var(--type-font-scale)));
   --type-font-size-0: var(--type-base-font-size);
@@ -356,6 +357,7 @@ body {
 @media only screen and (min-width: 750px) {
   :root {
     --type-base-font-size: var(--type-desktop-base-font-size);
+    --type-font-scale: var(--type-desktop-font-scale);
   }
 }
 

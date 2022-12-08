@@ -57,7 +57,8 @@
 
         --type-desktop-base-font-size: {{ settings.type_desktop_base_font_size | divided_by: 16.0 }}rem;
         --type-mobile-base-font-size: {{ settings.type_mobile_base_font_size | divided_by: 16.0 }}rem;
-        --type-font-scale: {{ settings.type_font_scale | divided_by: 100.0  }};
+        --type-desktop-font-scale: {{ settings.type_desktop_font_scale | divided_by: 100.0  }};
+        --type-mobile-font-scale: {{ settings.type_mobile_font_scale | divided_by: 100.0  }};
 
         --color-primary-foreground: {{ settings.colors_primary_foreground.red }}, {{ settings.colors_primary_foreground.green }}, {{ settings.colors_primary_foreground.blue }};
         --color-primary-background: {{ settings.colors_primary_background.red }}, {{ settings.colors_primary_background.green }}, {{ settings.colors_primary_background.blue }};
