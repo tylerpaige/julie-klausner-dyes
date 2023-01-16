@@ -791,6 +791,10 @@ a.product__text {
   width: 100%;
 }
 
+.product__description {
+  margin-bottom: 3em;
+}
+
 @media screen and (min-width: 750px) {
   .product-media-modal__content {
     padding: 2rem 11rem;
