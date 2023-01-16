@@ -133,10 +133,21 @@
               "color_scheme": "tertiary",
               "link": ""
             }
+          },
+          "a1bfca61-7605-4b0f-8477-3700067a254a": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "New! Dog\/Person Collection!",
+              "text_alignment": "center",
+              "color_scheme": "primary",
+              "link": "https:\/\/julieklausnerdyes.com\/collections\/doggy-and-me"
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "a1bfca61-7605-4b0f-8477-3700067a254a"
         ],
         "settings": {
         }

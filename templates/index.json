@@ -25,8 +25,20 @@
         "padding_bottom": 36
       }
     },
+    "collections": {
+      "type": "main-list-collections",
+      "settings": {
+        "title": "Shop by category",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2",
+        "color_scheme": "quarternary"
+      }
+    },
     "rich-text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "text": {
           "type": "text",
@@ -37,6 +49,7 @@
         },
         "1dfd1dee-a0d1-433c-837b-076ec98605ec": {
           "type": "bigtext",
+          "disabled": true,
           "settings": {
             "text": "<p>Hi, I'm Julie Klausner.<br\/>I'm a writer and performer, and I love ice-dyeing fabric in my tiny NYC kitchen.<\/p><p><\/p><p>Everything on this site is one-of-a-kind and made lovingly by hand. My own hand!<\/p>"
           }
@@ -54,22 +67,11 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "collections": {
-      "type": "main-list-collections",
-      "settings": {
-        "title": "Shop by category",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "columns_mobile": "2",
-        "color_scheme": "quarternary"
-      }
     }
   },
   "order": [
     "e8eeb285-6ac9-4281-ac3d-7c9945b74bca",
-    "rich-text",
-    "collections"
+    "collections",
+    "rich-text"
   ]
 }
