@@ -38,6 +38,18 @@
             "picker_type": "dropdown"
           }
         },
+        "efb4b78e-7a60-4e25-9658-5c4d7a983f19": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<label for=\"customization\" class=\"type-sm\">Customization<\/label>\n<textarea name=\"customization\" class=\"custom-form-textarea\"><\/textarea>\n<style>\n.custom-form-textarea {\n  border: 1px solid black;\nwidth: 100%;\nfont-family: inherit;\nfont-size: 1rem;\npadding: 1rem;\nheight: 10rem;\nmargin-bottom: 1rem;\n}\n<\/style>"
+          }
+        },
+        "8ab9cab5-af90-486a-9ebd-72c278b311ba": {
+          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
+          "settings": {
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -58,6 +70,8 @@
         "description",
         "product-rating",
         "variant_picker",
+        "efb4b78e-7a60-4e25-9658-5c4d7a983f19",
+        "8ab9cab5-af90-486a-9ebd-72c278b311ba",
         "quantity_selector",
         "buy_buttons"
       ],
